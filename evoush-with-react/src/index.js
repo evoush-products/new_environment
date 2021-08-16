@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App/App';
+import Router from './router'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App title="Evoush Landing"/>
+  	<Router/>
   </React.StrictMode>,
   document.getElementById('root')
 );
